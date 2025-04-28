@@ -40,7 +40,7 @@ Here's how this app uses the Monte Carlo approach specifically to estimate Pi:
 5.  **Calculate Ratio:** The ratio `(Number of Points Inside Circle) / (Total Number of Points Generated)` should approximate the ratio of the areas `(Circle Area / Square Area)`, which is `π / 4`.
 6.  **Estimate Pi:** Therefore, we can estimate **π ≈ 4 * (Points Inside Circle) / (Total Points)**. The more points we generate, the better this approximation tends to become.
 
-Use the slider below to choose the number of random points to generate and click the button to run the simulation.
+Adjust the slider and click 'Run Simulation' in the sidebar to start.
 """)
 
 
@@ -164,5 +164,3 @@ st.sidebar.markdown(
     **Email:** [chopwood24@gmail.com](mailto:chopwood24@gmail.com)
     """
 )
-# --- REMOVED Section explaining MCMC connection ---
-# (The previous MCMC explanation block is deleted from here)
